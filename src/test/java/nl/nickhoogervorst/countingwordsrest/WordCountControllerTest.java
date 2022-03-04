@@ -40,7 +40,7 @@ public class WordCountControllerTest {
 
     // highest frequency word is "the" with a count 42
     // certain words to test with expected results:
-    // "the" -> 4, "a" -> 11, "like" -> 5, "for" -> 3
+    // "the" -> 42, "a" -> 11, "like" -> 5, "for" -> 3
     int expectedHighestFrequencyWordinText = 42;
 
     String testWord = "when";
