@@ -68,7 +68,6 @@ public class WordCountControllerTest {
 
     @Test
     void calculateMostFrequentNWords() {
-        System.out.println(wordFrequencyCounter.calculateMostFrequentNWords(testString, testAmountOfWords));
         assertEquals("(\"feel\", 5)", wordFrequencyCounter.calculateMostFrequentNWords(testString, testAmountOfWords).get(9).toString());
     }
 
